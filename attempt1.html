@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head> <title> Button Pusher </title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="center">
+
+        <h2 class="button-text"> PUSH THE BUTTON
+        </h2>
+
+            <p class="button-text"> Click "Button" already! </p>
+
+                 <div class="btn button">
+                    <button onclick="FADE()" id="btn">FADE</button>
+                </div>
+
+            <p id="demo" class="button-text"></p>
+
+                <div class="fade" id="Box"></div>
+                <div class="fade2" id="Box2"></div>
+                <div class="fade3" id="Box3"></div>
+            <script>
+                let buttonText = document.getElementById("btn").textContent;
+                function bringItBack() {
+                    if (document.getElementById("btn").textContent == 'FADE') {
+                        document.getElementById("btn").textContent = 'Bring it Back!';
+                    } else {
+                        document.getElementById("btn").textContent = 'FADE';
+                    }
+                }
+                function FADE() {
+                    console.log(buttonText);
+                    $("#Box").fadeToggle(1000);
+                    $("#Box2").fadeToggle(2000);
+                    $("#Box3").fadeToggle(3000);
+                    setTimeout(() => { bringItBack() }, 3000);
+                }
+            </script>
+    </div>
+</body>
+</html>
