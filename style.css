@@ -1,3 +1,40 @@
 .header {
     display: grid;
 }
+
+.columnOne {
+    display: grid;
+    grid-column-start: 1;
+}
+
+body {
+    background: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 7fr;
+}
+
+.column {
+    height: 200px;
+    width: 200px;
+    background: white;
+    display: flex;
+}
+
+#one {
+    background: cyan;
+}
+
+#two {
+    background: limegreen;
+}
+
+#three {
+    background: rebeccapurple;
+}

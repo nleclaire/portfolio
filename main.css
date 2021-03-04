@@ -83,3 +83,8 @@
     text-align: center;
     float: auto;
 }
+
+body {
+    background: black;
+    color: white;
+}
