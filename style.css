@@ -12,6 +12,7 @@ body {
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    font-family: Helvetica, sans-serif;
 }
 
 .table {
@@ -35,16 +36,19 @@ body {
     width: 100%;
     background: black;
     margin: 5px;
+    padding-top: 50px;
 }
 
 #two {
     width: 100%;
     background: black;
     margin: 5px;
+    padding-top: 50px;
 }
 
 #three {
     width: 100%;
     background: black;
     margin: 5px;
+    padding-top: 50px;
 }
