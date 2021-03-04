@@ -19,16 +19,15 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100vw;
-    max-width: 1200px;
 }
 
 .column {
     height: 500px;
+    width: auto;
     max-width: 300px;
     background: white;
     display: flex;
-    padding: 10px 10px;
-    margin: 10px;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -36,19 +35,19 @@ body {
     width: 100%;
     background: black;
     margin: 5px;
-    padding-top: 50px;
+    padding: 50px 5px 10px 5px;
 }
 
 #two {
     width: 100%;
     background: black;
     margin: 5px;
-    padding-top: 50px;
+    padding: 50px 5px 10px 5px;
 }
 
 #three {
     width: 100%;
     background: black;
     margin: 5px;
-    padding-top: 50px;
+    padding: 50px 5px 10px 5px;
 }
