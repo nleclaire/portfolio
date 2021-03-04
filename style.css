@@ -11,30 +11,37 @@ body {
     background: black;
     color: white;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .table {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 7fr;
+    width: 100vw;
 }
 
 .column {
-    height: 200px;
-    width: 200px;
+    height: 500px;
     background: white;
     display: flex;
+    margin: 10px 10px;
 }
 
 #one {
-    background: cyan;
+    width: 100%;
+    background: black;
+    margin: 5px;
 }
 
 #two {
-    background: limegreen;
+    width: 100%;
+    background: black;
+    margin: 5px;
 }
 
 #three {
-    background: rebeccapurple;
+    width: 100%;
+    background: black;
+    margin: 5px;
 }
